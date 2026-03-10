@@ -21,9 +21,6 @@ Sirven para controlar la lógica de una aplicación. Son fundamentales porque pe
 ## 🧩 Sintaxis
 A diferencia de otros lenguajes, Python utiliza los dos puntos (:) y la indentación (espacios o tabulaciones) para definir qué código pertenece a la condicional. Además, usa la palabra clave elif en lugar de else if.
 
-```python
-# ejemplo básico de sintaxis
-
 if condicion:
     # Este bloque se ejecuta si la condición es verdadera
     print("Condición cumplida")
@@ -33,3 +30,15 @@ elif otra_condicion:
 else:
     # Se ejecuta si ninguna de las anteriores fue verdadera
     print("Nada se cumplió")
+
+```python
+# ejemplo básico de sintaxis
+
+    temperatura = 25
+
+if temperatura > 30:
+    print("Hace mucho calor.")
+elif temperatura >= 20:
+    print("El clima está agradable.")
+else:
+    print("Hace frío.")
